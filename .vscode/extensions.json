@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "charliermarsh.ruff",
+    "ms-azuretools.vscode-docker",
+    "snakemake.snakemake-lang",
+    "github.vscode-github-actions"
+  ]
+}

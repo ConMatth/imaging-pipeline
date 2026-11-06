@@ -1,0 +1,5 @@
+# Paths are relative to the project root.
+raw_dir: data/raw
+bids_dir: data/bids  # identifiable: keep private
+deid_dir: data/bids_deid  # de-identified copy for later stages and sharing
+outputs_dir: outputs

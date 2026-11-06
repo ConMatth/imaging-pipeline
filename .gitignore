@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Data and outputs: never commit imaging data
+data/raw/*
+data/bids/*
+data/bids_deid/
+outputs/*
+!data/raw/.gitkeep
+!data/bids/.gitkeep
+!outputs/.gitkeep
+*.dcm
+*.nii
+*.nii.gz
+
+# Snakemake
+.snakemake/
+
+# OS / editor
+.DS_Store
